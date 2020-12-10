@@ -28,10 +28,10 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2-beta
         with:
-           node-veriuon: 12
+           version: 12
       
       - name: github action for yarn
-        uses: Borales/action-yarn@v2.1.0
+        uses: Borales/actions-yarn@v2.1.0
         with:
           cmd: install
       - name: creating build
