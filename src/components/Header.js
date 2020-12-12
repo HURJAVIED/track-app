@@ -1,7 +1,10 @@
 import React from 'react';
 
-exports const Header = () => {
+export const Header = () => {
     return(
-        <h1>Expense Tracker by Hur Javed </h1>
+        <h1>
+            Expense Tracker by Hur Javed 
+
+        </h1>
     )
 }
